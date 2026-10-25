@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lift Shift support</title>
+  <meta name="description" content="Help and contact for Lift Shift, the tap-to-dispatch elevator game.">
+  <!-- Published at https://muhammadmahindar.github.io/lift-shift-legal/ (the store "support URL").
+       TODO(owner): "muhammadmahindar" is the GitHub handle; replace it with your Play developer name if that differs. -->
+  <style>
+    :root { color-scheme: light; --ink: #22342D; --ink-soft: #3E5A50; --paper: #F4F1E8; --paper-hi: #FFFCF5; --tower: #2E5C30; --honey: #F2AE33; --honey-deep: #B07A1C; --sky: #DFF3FF; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1.0625rem/1.6 ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    ::selection { background: var(--honey); color: var(--ink); }
+    main { max-width: 42rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+    header { display: flex; align-items: center; gap: .75rem; margin-bottom: 1.25rem; }
+    header svg { flex: 0 0 auto; width: 3rem; height: 3rem; }
+    h1 { margin: 0; font-size: 1.75rem; line-height: 1.15; font-weight: 750; letter-spacing: -.03em; text-wrap: balance; }
+    h2 { margin: 0 0 .4rem; font-size: 1.2rem; line-height: 1.25; font-weight: 750; letter-spacing: -.02em; }
+    p, ul { margin: 0 0 .75rem; }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: .3rem; }
+    .meta { margin: .2rem 0 0; color: var(--ink-soft); font-size: .95rem; }
+    .panel { margin: 0 0 1.25rem; padding: 1rem 1.1rem; background: var(--paper-hi); border: 2.5px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); }
+    .panel--sky { background: var(--sky); }
+    a { color: var(--tower); font-weight: 650; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    a:hover { color: var(--ink); }
+    :focus-visible { outline: 3px solid var(--honey-deep); outline-offset: 3px; border-radius: 4px; }
+    .key { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; margin-bottom: 5px; padding: .6rem 1.25rem; background: var(--honey); color: var(--ink); border: 2px solid var(--ink); border-radius: 16px; box-shadow: 0 4px 0 var(--ink); text-decoration: none; font-weight: 750; overflow-wrap: anywhere; }
+    .key:hover { color: var(--ink); }
+    .key:active { transform: translateY(4px); box-shadow: 0 0 0 var(--ink); }
+    footer { margin-top: 2rem; color: var(--ink-soft); font-size: .9rem; }
+    @media (prefers-reduced-motion: reduce) { .key:active { transform: none; } }
+    @media (forced-colors: active) { .panel, .key { border-color: CanvasText; box-shadow: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 3v6" stroke="#22342D" stroke-width="2.5" stroke-linecap="round"/><rect x="9" y="9" width="30" height="35" rx="7" fill="#2E5C30" stroke="#22342D" stroke-width="2.5"/><circle cx="24" cy="15" r="2.6" fill="#F2AE33" stroke="#22342D" stroke-width="1.5"/><rect x="14" y="20" width="20" height="20" rx="3" fill="#FFFCF5" stroke="#22342D" stroke-width="2"/><path d="M24 20v20" stroke="#22342D" stroke-width="2"/></svg>
+      <div>
+        <h1>Lift Shift support</h1>
+        <p class="meta">Tap a floor. Lifts go.</p>
+      </div>
+    </header>
+
+    <section class="panel panel--sky" aria-labelledby="contact">
+      <h2 id="contact">Get in touch</h2>
+      <p>Found a bug, lost progress, or have an idea? Email us and say which phone you play on.</p>
+      <p><a class="key" href="mailto:muhammadmahindar@gmail.com?subject=Lift%20Shift%20support">Email muhammadmahindar@gmail.com</a></p>
+    </section>
+
+    <section class="panel" aria-labelledby="help">
+      <h2 id="help">Quick help</h2>
+      <ul>
+        <li><strong>How to play:</strong> tap a floor where people wait and the best lift goes. Tap it again to hurry it. In the game, Settings → How to play has the rest.</li>
+        <li><strong>Keep your progress safe:</strong> Settings → Advanced → Export backup saves a file you can import on a new phone.</li>
+        <li><strong>Reminders:</strong> they are optional and local. Turn them off in your phone's notification settings for Lift Shift.</li>
+        <li><strong>Progress looks wrong?</strong> Settings → Advanced → Restore previous backup brings back the save before your latest one.</li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="privacy">
+      <h2 id="privacy">Privacy</h2>
+      <p>Lift Shift collects no data: no account, no ads, no analytics. Your saves stay on your device. <a href="privacy.html">Read the privacy policy</a>.</p>
+    </section>
+
+    <footer><p>Lift Shift is made by muhammadmahindar.</p></footer>
+  </main>
+</body>
+</html>

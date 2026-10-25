@@ -4,9 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy · Lift Shift</title>
-  <meta name="description" content="Lift Shift collects no data. No account, no ads, no analytics, no tracking. Saves stay on your device.">
-  <!-- Source of truth: docs/privacy.md (keep in step). Published at https://muhammadmahindar.github.io/lift-shift-legal/privacy.html.
-       TODO(owner): "muhammadmahindar" is the GitHub handle; replace it with your Play developer name if that differs. -->
+  <meta name="description" content="Lift Shift privacy: no account, optional rewarded ads (Google AdMob), anonymous play statistics (TelemetryDeck) you can switch off, optional leaderboards. Saves stay on your device.">
+  <!-- Source of truth: docs/privacy.md (keep in step). Published at https://muhammadmahindar.github.io/lift-shift-legal/privacy.html. -->
   <style>
     :root { color-scheme: light; --ink: #22342D; --ink-soft: #3E5A50; --paper: #F4F1E8; --paper-hi: #FFFCF5; --tower: #2E5C30; --honey: #F2AE33; --honey-deep: #B07A1C; --sky: #DFF3FF; }
     * { box-sizing: border-box; }
@@ -49,69 +48,122 @@
     <section class="panel panel--sky" aria-labelledby="summary">
       <h2 id="summary">In short</h2>
       <ul>
-        <li><strong>We collect no data.</strong> No account, no sign-in, no advertising, no analytics and no tracking. Nothing about you or your play is sent to us or to anyone else.</li>
-        <li><strong>Your progress stays on your device.</strong> Saves and settings are stored only inside the app.</li>
-        <li><strong>Reminders are local.</strong> If you allow notifications, reminders are scheduled on your device. No server and no push service are involved.</li>
-        <li><strong>No ads and no purchases.</strong></li>
+        <li><strong>No account.</strong> There is no Lift Shift account or sign-up. Your progress and settings stay on your device.</li>
+        <li><strong>Ads only when you choose.</strong> On Android and iPhone the app can offer a short video ad for a reward, such as double coins. An ad plays only when you tap to watch one. No banners and no ads during play. Ads come from <strong>Google AdMob</strong>, which may use your device's advertising ID if you allow it.</li>
+        <li><strong>Anonymous play statistics.</strong> The app sends anonymous gameplay statistics to <strong>TelemetryDeck</strong> to help us improve the game. No personal data, never used for ads. They are on by default, and you can switch them off at any time in <strong>Settings › Advanced › Share anonymous stats</strong>.</li>
+        <li><strong>Leaderboards are optional.</strong> If you are signed in to Google Play Games (Android) or Game Center (iPhone), your scores can appear on the game's leaderboards. Google or Apple runs these.</li>
+        <li><strong>Reminders are local.</strong> If you allow notifications, reminders are scheduled on your device. No server and no push service.</li>
+        <li><strong>We never sell your data.</strong></li>
       </ul>
     </section>
 
     <section class="panel" aria-labelledby="who">
       <h2 id="who">Who we are</h2>
-      <p>Lift Shift is a single-player elevator game made by muhammadmahindar. This policy covers the current version of the app on Android, iPhone and the web.</p>
+      <p>Lift Shift is a single-player elevator game made by Dar Labs ("we"). This policy covers the app on Android, iPhone and the web.</p>
     </section>
 
     <section class="panel" aria-labelledby="stored">
       <h2 id="stored">What is stored on your device</h2>
-      <p>The app keeps the following in its own private storage on your device. None of it leaves your device.</p>
+      <p>The app keeps the following in its own private storage on your device. None of it is sent to us.</p>
       <table>
         <thead><tr><th scope="col">Data</th><th scope="col">Why</th></tr></thead>
         <tbody>
-          <tr><td>Game progress: shifts, stars, Rush and Daily Rush scores, coins, upgrades, tower and rooms, missions and streak, unlocked liveries and buildings</td><td>So you can carry on where you left off</td></tr>
-          <tr><td>Settings: volume, reduced motion, high contrast, extra time, game speed, notification choice</td><td>So your preferences stick</td></tr>
+          <tr><td>Game progress: shifts, stars, Rush and Daily Rush scores, coins, upgrades, tower and rooms, missions and streak, event progress, unlocked liveries and buildings</td><td>So you can carry on where you left off</td></tr>
+          <tr><td>Settings: volume, reduced motion, high contrast, extra time, game speed, notification choice, "Share anonymous stats" choice</td><td>So your preferences stick</td></tr>
           <tr><td>A previous copy of your save</td><td>So a damaged save can be recovered</td></tr>
+          <tr><td>A random install ID and a small queue of unsent statistics</td><td>To count returning players without knowing who they are, and to keep statistics while you are offline</td></tr>
         </tbody>
       </table>
       <p>Deleting the app deletes all of this. Your device's own backup may include the app's data (on Android, Google's device backup; on iPhone, iCloud or a computer backup) under Google's or Apple's privacy terms. Backups you export from Settings are files you choose where to keep; we never receive them.</p>
     </section>
 
+    <section class="panel" aria-labelledby="ads">
+      <h2 id="ads">Ads (Android and iPhone)</h2>
+      <p>The app offers <strong>rewarded ads only</strong>: a short video you choose to watch for an in-game reward (to continue a Rush once, to double the coins from a run, or for a daily free bonus). Ads never start on their own and never appear during play, and the Daily Rush never offers an ad continue. The web version has no ads.</p>
+      <p>Ads are provided by <strong>Google AdMob</strong> (Google LLC / Google Ireland Limited). When an ad is requested or shown, Google's ad software in the app collects, under Google's own policies:</p>
+      <ul>
+        <li>your device's <strong>advertising ID</strong> (Android Advertising ID; on iPhone the IDFA, <strong>only if you allow tracking</strong> in the iPhone prompt) and Google's app-set ID;</li>
+        <li>your <strong>IP address</strong> (used to estimate an approximate location, such as the country);</li>
+        <li><strong>device and app information</strong>, such as device model, operating-system version and app version;</li>
+        <li><strong>ad interactions</strong>, such as whether the ad was shown, watched to the end or tapped, and diagnostics about ad performance.</li>
+      </ul>
+      <p>Google uses this to show and measure ads, to prevent fraud and abuse, and, only where you have agreed, to personalise ads. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
+      <p><strong>Your choices:</strong></p>
+      <ul>
+        <li><strong>Consent (EEA, UK, Switzerland and wherever the law requires it):</strong> before any ad is requested, the app shows Google's consent form. You can accept, refuse or choose purposes. If you refuse, rewarded ads are non-personalised or limited. Where the law requires it, you can change your choice later from the privacy choices entry in Settings.</li>
+        <li><strong>iPhone tracking prompt:</strong> the app asks whether it may track you before it asks for ads. If you choose "Ask App Not to Track", the IDFA is not shared. Change it any time in iPhone Settings › Privacy &amp; Security › Tracking.</li>
+        <li><strong>Android:</strong> reset or delete your advertising ID in Android Settings › Privacy › Ads (the wording varies by device).</li>
+        <li>Every ad offer is optional, and the game is fully playable without watching any.</li>
+      </ul>
+      <p>We do not receive your advertising ID and do not combine ad data with anything else. We only see total ad numbers in AdMob reports.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="stats">
+      <h2 id="stats">Anonymous play statistics (TelemetryDeck)</h2>
+      <p>To learn which parts of the game people enjoy and where they get stuck, the app sends anonymous usage statistics to <strong>TelemetryDeck</strong> (TelemetryDeck GmbH, Germany), a privacy-focused analytics service built not to identify people.</p>
+      <ul>
+        <li><strong>What is sent:</strong> names of game events (such as "app opened", "tutorial complete", "run started", "wave reached", "run ended", "shop purchase", "ad offer shown", "ad reward granted", "streak", "leaderboard opened", "reminder opened", "setting changed") with game numbers such as mode, wave, score, run length, item bought and coin cost, plus the platform (Android, iPhone or web) and app version. Each event has a random session ID and a timestamp.</li>
+        <li><strong>The only identifier</strong> is a random install ID created by the app on your device. It is not your advertising ID, not a hardware ID and not linked to any account. It is hashed (SHA-256) on your device before it is sent, and TelemetryDeck hashes it again, so it cannot be traced back to you or your device.</li>
+        <li><strong>Never sent:</strong> your name, email, contacts, location, advertising ID, anything you type, or your save file.</li>
+        <li><strong>Purpose:</strong> improving the game, for example how many players finish the tutorial, come back the next day or use an ad offer. Never advertising, never tracking across apps or websites, never sold.</li>
+        <li><strong>On by default, easy to switch off:</strong> because the statistics are anonymous they start on, and you can switch them off at any time in <strong>Settings › Advanced › Share anonymous stats</strong>. Switching off stops recording at once and deletes any unsent statistics from your device. Your choice is remembered.</li>
+        <li><strong>Legal basis (EU/UK GDPR):</strong> our legitimate interest in understanding and improving the game (Article 6(1)(f)), using anonymous data only, with an easy way to switch it off.</li>
+        <li>Statistics are sent over HTTPS in small batches. If you are offline they wait on your device (at most 500 events) and are sent later.</li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="boards">
+      <h2 id="boards">Leaderboards (Google Play Games and Game Center)</h2>
+      <p>Lift Shift has leaderboards for today's Daily Rush and for your best Rush.</p>
+      <ul>
+        <li><strong>Android:</strong> if you are signed in to Google Play Games, the app submits your scores to Google, and your Play Games profile (gamer name and avatar) appears next to them under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. You can sign out, or change your profile visibility, in the Google Play Games app.</li>
+        <li><strong>iPhone:</strong> if you are signed in to Game Center, the app submits your scores to Apple, and your Game Center nickname and avatar appear next to them under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. You can sign out in iPhone Settings › Game Center.</li>
+        <li>If you are not signed in, nothing is submitted. We never receive your Google or Apple account details; the app only sends a score.</li>
+      </ul>
+    </section>
+
     <section class="panel" aria-labelledby="notifications">
       <h2 id="notifications">Notifications</h2>
-      <p>After your first Rush (never at first launch) the app may ask to show notifications. If you allow it, it schedules reminders on the device, such as "Your Daily Rush is ready" or a streak reminder. There is no remote server and no push token. You can turn them off at any time in your device's notification settings for Lift Shift.</p>
+      <p>After your first Rush (never at first launch) the app may ask to show notifications. If you allow it, it schedules at most one reminder a day on the device, such as "Your Daily Rush is ready" or a reminder that your streak is at risk. There is no remote server and no push token. You can turn them off at any time in your device's notification settings for Lift Shift.</p>
     </section>
 
     <section class="panel" aria-labelledby="network">
       <h2 id="network">Network use</h2>
-      <p>All game files are bundled with the app, and the app makes no network requests of its own. The Daily Rush is the same for everyone because it is built from the date on your device, not downloaded.</p>
+      <p>All game files are bundled with the app. Apart from the services above (AdMob ads when you choose to watch one, TelemetryDeck statistics unless you switch them off, and Play Games or Game Center when you are signed in), the app makes no network requests of its own. The Daily Rush is the same for everyone because it is built from the date on your device, not downloaded.</p>
       <p>In Credits &amp; privacy, "Privacy policy" opens this page in your browser and "Contact support" opens your email app; those apps work under their own privacy terms. Sharing your Daily result uses your device's share sheet and sends only what you choose to share.</p>
       <p>The web version downloads its files from the site hosting it and checks there for updates. That host may keep standard server logs (such as IP addresses) under its own policy.</p>
     </section>
 
     <section class="panel" aria-labelledby="children">
       <h2 id="children">Children</h2>
-      <p>The app is suitable for all ages. It collects no personal information from anyone, including children under 13 (or the minimum age in your country).</p>
+      <p>Lift Shift is rated for everyone, but it is <strong>not directed at children under 13</strong> (or the minimum age in your country), and the store listings target ages 13 and over. We do not knowingly collect personal information from children. If you are a parent and believe your child has used the ads in the app, you can reset the device's advertising ID (see "Ads") and contact us with any questions.</p>
     </section>
 
     <section class="panel" aria-labelledby="third">
       <h2 id="third">Third parties</h2>
-      <p>No third-party advertising, analytics, social or tracking SDKs. The app uses open-source libraries that run entirely on the device: Capacitor (app shell, haptics, sharing, local notifications) and Three.js (3D graphics).</p>
-    </section>
-
-    <section class="panel" aria-labelledby="changes">
-      <h2 id="changes">Future changes</h2>
-      <p>If a future version ever offers anonymous gameplay statistics or crash reports, then before that version is released:</p>
-      <ul>
-        <li>this policy will be updated, naming the provider and the exact data;</li>
-        <li>the Google Play Data safety section and the App Store privacy label will be updated to match;</li>
-        <li>sharing will be off until you turn it on in Settings, and you can turn it off again at any time;</li>
-        <li>the data will never be used for advertising or tracking, never sold, and never combined with data from other apps.</li>
-      </ul>
+      <table>
+        <thead><tr><th scope="col">Provider</th><th scope="col">What it does</th><th scope="col">Data</th></tr></thead>
+        <tbody>
+          <tr><td>Google AdMob and User Messaging Platform (<a href="https://policies.google.com/privacy">policy</a>)</td><td>Rewarded ads, ad consent</td><td>Advertising ID, IP address, device info, ad interactions</td></tr>
+          <tr><td>TelemetryDeck (<a href="https://telemetrydeck.com/privacy/">policy</a>)</td><td>Anonymous play statistics</td><td>Game events, hashed random install ID</td></tr>
+          <tr><td>Google Play Games, Android (<a href="https://policies.google.com/privacy">policy</a>)</td><td>Leaderboards</td><td>Scores, your Play Games profile</td></tr>
+          <tr><td>Apple Game Center, iPhone (<a href="https://www.apple.com/legal/privacy/">policy</a>)</td><td>Leaderboards</td><td>Scores, your Game Center profile</td></tr>
+        </tbody>
+      </table>
+      <p>The app also uses open-source libraries that run entirely on the device: Capacitor (app shell, haptics, sharing, local notifications) and Three.js (3D graphics).</p>
     </section>
 
     <section class="panel" aria-labelledby="rights">
       <h2 id="rights">Your rights and contact</h2>
-      <p>We hold no data about you, so there is nothing for us to access, correct or delete. Everything lives on your device and is removed when you delete the app.</p>
-      <p>Questions? Email <a href="mailto:muhammadmahindar@gmail.com?subject=Lift%20Shift%20privacy">muhammadmahindar@gmail.com</a>.</p>
+      <ul>
+        <li><strong>Statistics:</strong> switch them off in Settings › Advanced › Share anonymous stats. Because they are anonymous, we cannot find, export or delete one person's statistics: nothing links them to you.</li>
+        <li><strong>Ads:</strong> change your ad consent from the privacy choices entry in Settings (where offered), your iPhone tracking setting, or your Android advertising ID settings. For data Google holds, use <a href="https://myaccount.google.com/data-and-privacy">Google's privacy controls</a>.</li>
+        <li><strong>Leaderboards:</strong> manage or delete your scores and profile through Google Play Games or Game Center.</li>
+        <li><strong>Your save:</strong> it lives on your device. Settings › Advanced › Reset progress, or deleting the app, removes it.</li>
+      </ul>
+      <p>If you are in the EU, UK or another place with data-protection laws, you can also complain to your local data-protection authority.</p>
+      <p>If we change what the app collects, we will update this page and its date before that version is released, along with the Google Play Data safety section and the App Store privacy label.</p>
+      <p>Questions? Email <a href="mailto:darlabs.studio@gmail.com?subject=Lift%20Shift%20privacy">darlabs.studio@gmail.com</a>.</p>
     </section>
 
     <footer><p><a href="./">Lift Shift support</a></p></footer>
